@@ -1,0 +1,57 @@
+<resources>
+
+    <string name="app_name">Inventory App</string>
+
+    <string name="empty_view_title_text">Its All Empty Here !!!</string>
+    <string name="empty_view_subtitle_text">Try adding some products</string>
+
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_dialog_msg">Delete this Stock Unit ?</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="stock_name">Stock Name</string>
+    <string name="product_name">Product Name</string>
+    <string name="subtract">-</string>
+    <string name="zero">0</string>
+    <string name="add">+</string>
+    <string name="stock_price">Stock Price</string>
+    <string name="default_stock_unit_price">$0.00</string>
+    <string name="supplier_details">Supplier Details</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="supplier_phone">Supplier Phone</string>
+    <string name="available">Available</string>
+    <string name="sale">Sale</string>
+    <string name="insert_dummy_data">Insert Dummy Data</string>
+    <string name="delete_all_entries">Delete all Entries</string>
+    <string name="save">Save</string>
+    <string name="order">Order</string>
+
+    <!-- CatalogActivity in insertData() function when inserting any dummy fields -->
+    <string name="dummy_product_name">Pen</string>
+    <string name="dummy_supplier_name">Robin</string>
+    <string name="dummy_contact_number">12345</string>
+    <string name="dummy_product_quantity">5</string>
+    <string name="dummy_product_price">5.00</string>
+
+    <!-- StockAdapter -->
+    <string name="out_of_stock">Out of Stock</string>
+
+    <!-- EditorActivity -->
+    <string name="error_in_deleting_product">Error in deleting Product</string>
+    <string name="product_deleted">Product Deleted</string>
+    <string name="discard_your_changes_and_quit_editing">Discard Your changes and quit editing?</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="discard">Discard</string>
+    <string name="product_updated">Product Updated</string>
+    <string name="error_in_updating_product">Error in updating Product</string>
+    <string name="product_saved">Product Saved</string>
+    <string name="error_in_saving_product">Error in saving Product</string>
+    <string name="necessary_details">Please fill all the necessary details</string>
+    <string name="permission_denied">You do not have permission to access</string>
+    <string name="orders_cannot_be_less_than_zero">Orders can not be less than zero</string>
+    <string name="you_cannot_have_less_than_zero_stock">You cannot have less than zero stock</string>
+    <string name="add_a_item">Add a Item</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="please_upload_image">Please upload image</string>
+
+</resources>

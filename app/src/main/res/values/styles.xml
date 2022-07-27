@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyInventoryAppStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="list_item_name_and_availability_attributes_styling">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">@color/list_item_name_and_availability</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+
+    </style>
+
+    <style name="list_item_price_and_quantity_attributes_styling">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">@color/list_item_price_and_quantity</item>
+        <item name="android:layout_weight">1.5</item>
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">top</item>
+
+    </style>
+
+    <style name="list_item_sale_button_attributes_styling">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/sale_rectangle</item>
+        <item name="android:backgroundTint">@color/list_item_sale_button</item>
+        <item name="android:focusable">false</item>
+        <item name="android:text">@string/sale</item>
+
+    </style>
+
+    <style name="list_item_image_view_attributes_styling">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/pen</item>
+
+    </style>
+
+    <style name="activity_catalog_empty_view_attributes_styling">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+
+    </style>
+
+    <style name="activity_catalog_floating_Action_button_attributes_styling">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:src">@drawable/ic_add_white</item>
+
+    </style>
+
+    <style name="activity_editor_card_view">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="cardCornerRadius">7dp</item>
+        <item name="cardElevation">0dp</item>
+
+    </style>
+
+    <style name="activity_editor_product_image">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/product_image</item>
+
+    </style>
+
+    <style name="activity_editor_choose_image_button">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/image_card_view</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/sale_rectangle</item>
+        <item name="android:text">@string/choose_image</item>
+
+    </style>
+
+    <style name="activity_editor_increment_and_decrement_button">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/product_name_edit_txt</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/sale_rectangle</item>
+        <item name="android:backgroundTint">
+            @color/activity_editor_increment_and_decrement_button_color
+        </item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="activity_editor_order_button">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/supplier_phone_number_edit_txt</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@drawable/sale_rectangle</item>
+        <item name="android:backgroundTint">@color/activity_editor_order_button_color</item>
+        <item name="android:text">@string/order</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:visibility">invisible</item>
+
+    </style>
+
+    <style name="activity_editor_supplier_name_and_phone">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="activity_editor_label_attributes_styling">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/activity_editor_label_color</item>
+
+    </style>
+
+    <style name="activity_editor_stock_unit_price">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_below">@+id/stock_price_text_view</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="activity_editor_stock_quantity">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_below">@+id/product_name_edit_txt</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:enabled">false</item>
+        <item name="android:layout_toStartOf">@+id/pos_qty_button</item>
+        <item name="android:layout_toEndOf">@+id/neg_qty_button</item>
+
+    </style>
+
+    <style name="activity_editor_product_name">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/stock_name_text_view</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+</resources>

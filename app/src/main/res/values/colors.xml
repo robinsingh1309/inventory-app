@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="colorPrimary">#346751</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="colorPrimaryDark">#161616</color>
+
+    <!-- Accent color of the app -->
+    <color name="colorAccent">#10CAC9</color>
+
+    <color name="list_item_name_and_availability">#F0555252</color>
+    <color name="list_item_price_and_quantity">#F0555252</color>
+    <color name="list_item_sale_button">#CCFF90</color>
+    <color name="activity_editor_increment_and_decrement_button_color">#ffd54f</color>
+    <color name="activity_editor_order_button_color">#FAFFCD3B</color>
+    <color name="activity_editor_label_color">#F2BDBDBD</color>
+    <color name="activity_editor_background_color">#F9FCFB</color>
+
+
+</resources>

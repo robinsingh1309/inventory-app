@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/stock_image"
+        style="@style/list_item_image_view_attributes_styling" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/product_name_text_view"
+                style="@style/list_item_name_and_availability_attributes_styling"
+                android:layout_weight="1.5"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                tools:text="Scissor" />
+
+            <TextView
+                android:id="@+id/stocks_unit_price_text_view"
+                style="@style/list_item_price_and_quantity_attributes_styling"
+                tools:text="$32" />
+
+            <TextView
+                android:id="@+id/stock_unit_quantity_label_text_view"
+                style="@style/list_item_name_and_availability_attributes_styling"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="@string/available"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/stock_qty_text_view"
+                style="@style/list_item_price_and_quantity_attributes_styling"
+                tools:text="100" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sale_button"
+            style="@style/list_item_sale_button_attributes_styling" />
+
+    </RelativeLayout>
+
+</LinearLayout>
